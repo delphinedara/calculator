@@ -1,0 +1,31 @@
+.calculator {
+    width: 400px;
+    height: 422px;
+    margin: 0 auto;
+    margin-top: 300px;
+    border: solid 2px black;   
+}
+
+.calculator h1{
+    margin: 0;
+    line-height: 60px;
+    color: black;
+    text-align: center;
+}
+.result{
+    width:97%;
+    height: 50px;
+    font-size: 90%;
+    padding:1%;
+
+}
+
+.button {
+    float:left;
+    width:33.33%;
+    height:50px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title> Calculator</title>
+
+	<!--Importing style sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+	<div class="calculator">	
+		<h1> Calculator</h1>
+
+			<input type="text" id="result" class="result">
+
+			<button class="button" onclick="clearText()">AC</button>
+			<button class="button" onclick="appendForCalculation(' % ')">%</button>
+			<button class="button" onclick="appendForCalculation(' / ')">/</button>
+
+			<button class="button" onclick="appendForCalculation(' * ')">*</button>
+			<button class="button" onclick="appendForCalculation(' + ')">+</button>
+			<button class="button" onclick="appendForCalculation(' - ')">-</button>
+
+			<button class="button" onclick="appendForCalculation('7')">7</button>
+			<button class="button" onclick="appendForCalculation('8')">8</button>
+			<button class="button" onclick="appendForCalculation('9')">9</button>
+
+			<button class="button" onclick="appendForCalculation('4')">4</button>
+			<button class="button" onclick="appendForCalculation('5')">5</button>
+			<button class="button" onclick="appendForCalculation('6')">6</button>
+
+			<button class="button" onclick="appendForCalculation('1')">1</button>
+			<button class="button" onclick="appendForCalculation('2')">2</button>
+			<button class="button" onclick="appendForCalculation('3')">3</button>
+
+			<button class="button" onclick="appendForCalculation('.')">.</button>
+			<button class="button" onclick="appendForCalculation('0')">0</button>
+			<button class="button" onclick="calculate()">=</button>
+			
+	</div>
+
+	<!--Importing calculator logic JavaScript-->
+    <script type="text/javascript" src="assets/javascript/calculator.js"></script>
+
+	
+</body>
+
+</html>
