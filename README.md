@@ -1,3 +1,3 @@
 # calculator
 
-Fully working calculator using JavaScript.
+Basic calculator using JavaScript HTML, and CSS.
